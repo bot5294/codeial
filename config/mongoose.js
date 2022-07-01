@@ -11,7 +11,5 @@ db.once('open', function(){
     console.log('Connected to Database :: MongoDB');
 });
 
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
+
 module.exports = db;
